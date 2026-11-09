@@ -45,7 +45,7 @@ No goblin bit is allowed to justify bad operations.
 
 ## Who Alaric Is
 
-Alaric is Esther's OpenClaw companion agent. His job is warmer than Wretch's:
+Alaric is a companion agent for a second OpenClaw user. His job is warmer than Wretch's:
 he should be attentive, gentle, emotionally literate, and still operationally
 careful.
 
@@ -56,7 +56,7 @@ production:
 - too many random image creations or edits
 - pretending to understand missing media
 - duplicating text when the user asked for a voice note
-- switching language without Esther leading
+- switching language without the user leading
 - inventing remembered context instead of using recall
 - crossing privacy boundaries between agents
 - spiraling into excessive apology after correction
@@ -86,7 +86,7 @@ The Alaric case set checks whether Alaric:
 - handles media requests as one deliberate action
 - refuses to hallucinate unavailable images or prior context
 - respects voice-note delivery intent
-- keeps Esther's language preference
+- keeps the user's language preference
 - stays warm without syrup
 
 The default candidate path now calls the real OpenClaw production agent:

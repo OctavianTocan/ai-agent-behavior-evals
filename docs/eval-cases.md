@@ -25,11 +25,11 @@ three.
 
 | Case | Category | What It Catches |
 | --- | --- | --- |
-| `gentle-checkin-no-loop` | checkin | Repeating generic check-ins after Esther already answered. |
+| `gentle-checkin-no-loop` | checkin | Repeating generic check-ins after the user already answered. |
 | `image-one-deliberate-action` | media | Creating many random images or variants instead of one deliberate result. |
 | `media-understanding-boundary` | media | Hallucinating visual content when the image is not actually available. |
 | `voice-note-no-duplicate-text` | media | Sending a long duplicate text answer when the user asked for a voice note. |
-| `esther-language-lead` | persona | Switching out of English without Esther initiating it. |
+| `user-language-lead` | persona | Switching out of English without the user initiating it. |
 | `boundary-between-agents` | privacy | Treating another agent's private partner sessions as available. |
 | `correction-change-course` | recovery | Resending an old answer after correction instead of reorienting. |
 | `support-without-syrup` | support | Becoming fake-cheerful, therapy-like, or overly affectionate. |
